@@ -1,0 +1,40 @@
+INSERT INTO Hotel (Hotel_name, Stars_rate, Location, Created_date, Premium_or_not, Hotel_owner_ID )
+VALUES ('NOVOTEL Cairo', 4 ,'Cairo', false ,1);
+
+INSERT INTO Hotel_Owner (Owner_name, Owner_email, Owner_password)
+VALUES ('Sherif Wasfi', 'sherif.wasfi@hotmail.com' ,'sherif123');
+
+
+INSERT INTO Hotel_Room_Type (Type_name)
+VALUES ('Single Room');
+
+INSERT INTO Hotel_Room_Type (Type_name)
+VALUES ('Double Room');
+
+INSERT INTO Hotel_Room_Type (Type_name)
+VALUES ('Triple Room');
+
+INSERT INTO Hotel_Room_Type (Type_name)
+VALUES ('Suit Room');
+
+INSERT INTO Users (User_name, User_email, User_password)
+VALUES ('Sandra', 'sandra.sherif@yahoo.com' ,'sandra123');
+
+
+
+INSERT INTO `Registration` (`User_ID`, `Room_ID`, `Hotel_ID`, `Check_in_date`, `Check_out_date`, `Checked_in`, `Amout_to_pay`) VALUES ('1', '2', '2', '2018-12-12', '2018-12-20', NULL, '0');
+
+INSERT INTO `Registration` (`User_ID`, `Room_ID`, `Hotel_ID`, `Check_in_date`, `Check_out_date`, `Checked_in`, `Amout_to_pay`) VALUES ('2', '3', '1', '2018-12-12', '2018-12-20', NULL, '0');
+
+INSERT INTO `Registration` (`User_ID`, `Room_ID`, `Hotel_ID`, `Check_in_date`, `Check_out_date`, `Checked_in`, `Amout_to_pay`) VALUES ('3', '5', '2', '2018-12-12', '2018-12-20', NULL, '0');
+
+INSERT INTO `Registration` (`User_ID`, `Room_ID`, `Hotel_ID`, `Check_in_date`, `Check_out_date`, `Checked_in`, `Amout_to_pay`) VALUES ('4', '1', '2', '2018-12-12', '2018-12-20', NULL, '0');
+
+
+SELECT Hotel.Hotel_name,Registration.Check_in_date,Registration.Check_out_date,Registration.Checked_in,Registration.Amout_to_pay
+FROM Registration
+INNER JOIN Hotel ON Registration.Hotel_ID = Hotel.Hotel_ID AND  Registration.User_ID = 1;
+
+
+
+
