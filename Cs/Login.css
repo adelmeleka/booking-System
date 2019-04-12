@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    margin:10%;
+    background-image: 
+    url("../Assets/louvre.jpg");
+     background-size: cover;
+     color:white;
+} 
+
+.container{
+    padding: 30px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.form-check{
+    margin-right:50px;
+}
+
+.hide{
+    display: none;
+}
+
+.error{
+    margin-left: 2vw;
+    color: red;
+    font-size: 1.2em;
+}

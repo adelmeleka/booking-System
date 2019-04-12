@@ -1,0 +1,300 @@
+.empty {
+    height: 150px;
+}
+
+.choice_container {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.form-inline {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.datepicker {
+    color: blue;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-control::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.filtes {
+    margin-top: 10px;
+}
+
+.font_in_star_select {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.nav-item{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+
+  #ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+.margin_plus_minus {
+    display: inline-block;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.Children_number {
+    float: left;
+    margin-right: 65px;
+}
+
+.adults_number {
+    float: left;
+    margin-right: 78px;
+}
+
+
+li.nav-link {
+    border-bottom-color: blue;
+}
+
+.search_results {
+    /* background-color: #337ab7; */
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.mycontainer {
+    margin-left: 1px;
+    margin-right: 1px;
+
+}
+
+.card {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35rem;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-block {
+    padding: 10px;
+}
+
+.card-title {
+    display: inline-block;
+    margin-right: 40px;
+    float: left;
+    color: blue;
+}
+
+.glyphicon-star {
+    font-size: 17px;
+    color: #ffd000;
+}
+
+.glyphicon-star-empty {
+    font-size: 15px;
+}
+
+.yellow{
+    font-size: 17px;
+    color: #ffd000;
+}
+
+.red{
+    font-size: 17px;
+    color: #ff0000;
+}
+
+.choose_btn {
+    float: right;
+}
+
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.hide {
+    display: none;
+
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#pop_up_main {
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -250px;
+}
+
+#close_pop_up_div {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#close_pop_up_div p {
+    margin-top: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.image_slide {
+    width: 100%;
+    object-fit: cover;
+    max-height: 25vw;
+}
+
+
+.pager li a {
+    cursor: default;
+}
+
+.room_type_selector {
+    background-color: #fff;
+    color: #000000;
+}
+
+.form-control {
+    min-width: 250px;
+}

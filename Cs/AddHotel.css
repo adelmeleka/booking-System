@@ -1,0 +1,26 @@
+.body {
+    background-color: gainsboro;
+}
+
+.container {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 230px;
+}
+
+.hide {
+    display: none;
+}
+
+.glyphicon {
+    cursor: pointer;
+}
+
+
+#is_primary{
+    margin: 10px;
+}
+
+.tooltip_pointer{
+    cursor: pointer;
+}
